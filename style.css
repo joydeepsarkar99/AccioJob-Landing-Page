@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0px !important;
+    padding: 0px !important;
+    font-family: "Inter", sans-serif;
+}
+body{
+    scroll-behavior: smooth;
+}
+
+#login_btn {
+    font-size: 14px;
+    border-radius: 7px;
+}
+
+#primary_msg {
+    font-size: 14px;
+    background-color: #2F80ED;
+    margin-top: 72px !important;
+}
+
+#main_div {
+    padding-inline: 80px !important;
+}
+
+#main_div_msg>h1 {
+    font-size: 50px;
+}
+
+#main_div_form_applynow {
+    border-radius: 8px;
+    background: linear-gradient(315deg, #992fed, #2f80ed) !important;
+    width: 100% !important;
+}
+
+#main_div_form {
+    border-radius: 18px;
+    box-shadow: 20px 10px 50px 20px rgba(82, 4, 93, 0.12);
+}
+
+#main_div_info {
+    border-radius: 10px;
+    border: 1px solid lightslategray;
+    box-shadow: 0px 0px 10px 12px #f7f7f7;
+}
+
+.Highest-Salary {
+    font-size: 13px;
+}
+
+
+#courses {
+    background-color: #ecf8ff;
+    margin-top: 100px !important;
+}
+
+.course-we-offer>h5 {
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    background: var(--New, linear-gradient(277deg, #992fed 0%, #2f80ed 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.course-we-offer>h1 {
+    background-color: #ecf8ff;
+    color: #2f80ed;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.54px;
+}
+
+#card_content{
+    padding-inline:100px !important;
+}
+
+#beginner_card {
+    position: relative;
+}
+
+.Ideal-For-first-time-coders {
+    position: absolute;
+    top:-1rem !important;
+    left:32% !important;
+    background-color: #2F80ED;
+    color: white;
+    padding: 5px 10px !important;
+    border-radius: 10px;
+}
+
+.card_button {
+    width: 100%;
+}
+
+.card_button>button {
+    width: 50%;
+}
+
+#card_content>.card {
+    border-radius: 12px !important;
+}
+#card_content>.card:hover{
+    box-shadow: 0px 0px 50px 8px lightblue;
+}
+
+.btn-1 {
+    background-color: #E0F3FF;
+    color: #1d78b0;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px !important;
+}
+
+.btn-2 {
+    color: #965400;
+    background-color: #FFEED8;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px !important;
+}
+#hiring_partners>h5{
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    background: var(--New, linear-gradient(277deg, #992fed 0%, #2f80ed 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#hiring_partners>.btn{
+    margin-top:-2.5rem !important;
+}
+.companies-logo{
+    margin-bottom:6rem !important;
+}
+.companies-logo>img{
+    width: 90%;
+}
+.companies-logo:hover{
+    box-shadow: 0px 3px 15px 2px gainsboro;
+}
+
+#mentors{
+    margin-top:100px !important;
+}
+#mentors>div>.card:hover{
+    box-shadow: 0px 3px 15px 2px gainsboro;
+}
+#alumni{
+    margin-top:100px !important;
+}
+#alumni>div>.card:hover{
+    box-shadow: 0px 3px 15px 2px gainsboro;
+}
+#footer>a{
+    text-decoration: none !important;
+}
+
