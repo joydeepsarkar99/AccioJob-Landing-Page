@@ -14,75 +14,51 @@
 </head>
 
 <body>
-    <!-- <nav id="nav_bar" class="px-5 py-3 d-flex fixed-top justify-content-between align-items-center flex-wrap">
-        <div id="nav_img" class="ms-4">
-            <img src="https://acciojob.com/_next/static/media/full_logo.1a83ae71.svg?imwidth=256" alt="acciojob"
-                height="30">
-        </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
-        <div id="nav_links" class="d-flex justify-content-between align-items-center flex-wrap">
-            <ul id="nav_items" class="d-flex justify-content-between align-items-center">
-                <li class="mx-4"><a href="#">Courses</a></li>
-                <li class="mx-4"><a href="#">AccioJob Reviews</a></li>
-                <li class="mx-4"><a href="#">Scholarship Test</a></li>
-                <li class="mx-4"><a href="#">More</a></li>
-            </ul>
-            <button type="button" id="login_btn"
-                class="btn btn-outline-primary mx-4 px-4 py-2 fw-bold border-2">Login</button>
-        </div>
-        </div>
-    </nav>
-    <header id="primary_msg" class="text-center text-white py-2 my-5">Launch Your Tech Career in Analytics & Software
-        Dev
-        from Scratch</header> -->
-
-
-    <nav
-        class="navbar navbar-expand-lg navbar-light bg-white p-5 py-3 fixed-top d-flex justify-content-between align-items-center">
-        <div class="container-fluid">
-            <div id="nav_img">
-                <img src="https://acciojob.com/_next/static/media/full_logo.1a83ae71.svg?imwidth=256" alt="acciojob"
-                    height="30">
+    <nav id="header" class="fixed-top">
+        <nav
+            class="navbar navbar-expand-lg navbar-light bg-white p-5 py-3 d-flex justify-content-between align-items-center">
+            <div class="container-fluid">
+                <div id="nav_img">
+                    <img src="https://acciojob.com/_next/static/media/full_logo.1a83ae71.svg?imwidth=256" alt="acciojob"
+                        height="30">
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item dropdown mx-4">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Courses
+                            </a>
+                            <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item pt-2 px-3" href="#courses">MERN Full Stack</a></li>
+                                <li><a class="dropdown-item px-3" href="#courses">Java Full Stack</a></li>
+                                <li><a class="dropdown-item pb-2 px-3" href="#courses">Data Analytics</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link active text-dark" aria-current="page" href="#alumni">AccioJob Reviews</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link text-dark" href="#courses">Scholarship Test</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link text-dark" href="#footer">More</a>
+                        </li>
+                    </ul>
+                    <button type="button" id="login_btn"
+                        class="btn btn-outline-primary mx-4 px-4 py-2 fw-bold border-2">Login</button>
+                </div>
             </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
-                <ul class="navbar-nav mb-2 mb-lg-0">
-                    <li class="nav-item dropdown mx-4">
-                        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Courses
-                        </a>
-                        <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item pt-2 px-3" href="#courses">MERN Full Stack</a></li>
-                            <li><a class="dropdown-item px-3" href="#courses">Java Full Stack</a></li>
-                            <li><a class="dropdown-item pb-2 px-3" href="#courses">Data Analytics</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item mx-4">
-                        <a class="nav-link active text-dark" aria-current="page" href="#alumni">AccioJob Reviews</a>
-                    </li>
-                    <li class="nav-item mx-4">
-                        <a class="nav-link text-dark" href="#courses">Scholarship Test</a>
-                    </li>
-                    <li class="nav-item mx-4">
-                        <a class="nav-link text-dark" href="#footer">More</a>
-                    </li>
-                </ul>
-                <button type="button" id="login_btn"
-                    class="btn btn-outline-primary mx-4 px-4 py-2 fw-bold border-2">Login</button>
-            </div>
-        </div>
+        </nav>
+        <header id="primary_msg" class="text-center text-white py-2 px-3">Launch Your Tech Career in Analytics &
+            Software Dev from Scratch
+        </header>
     </nav>
-    <header id="primary_msg" class="text-center text-white px-3 py-2 my-5">Launch Your Tech Career in Analytics &
-        Software Dev from Scratch</header>
     <section id="main_div" class="row mt-5 justify-content-around align-items-center flex-wrap">
         <div id="main_div_msg" class="px-3 col-12 col-lg-6">
             <h1>Lauch your career with our <span class="text-primary">Full Stack Developer</span> <span
@@ -191,7 +167,7 @@
                     </div>
                     <hr>
                     <div class="placement d-flex justify-content-between my-3">
-                        <div><i class="fa-solid fa-notebook"></i> Daily Effort</div>
+                        <div><i class="fa-solid fa-book"></i> Daily Effort</div>
                         <div><i>5-7 hours</i></div>
                     </div>
                     <hr>
@@ -247,7 +223,7 @@
                     </div>
                     <hr>
                     <div class="placement d-flex justify-content-between my-3">
-                        <div><i class="fa-solid fa-notebook"></i> Daily Effort</div>
+                        <div><i class="fa-solid fa-book"></i> Daily Effort</div>
                         <div><i>8-10 hours</i></div>
                     </div>
                     <hr>
@@ -265,192 +241,200 @@
         </div>
         </div>
     </section>
-    <section>
-        <div id="hiring_partners" class=" text-center px-5 pt-5 my-3">
+    <section id="comapany">
+        <div id="hiring_partners" class=" text-center px-5 pt-5 mt-3">
             <h5 class="mb-3"><i>OVER 300+ HIRING PARTNERS</i></h5>
             <h1 class="mb-3"><i><strong>Startups & MNC's Hire</strong></i></h1>
             <h1 class="mb-3"><i><b>Software Engineer</b></i></h1>
             <div class="mb-5">
                 <h6 style="color: grey;">From AccioJob upto 41 Lakhs</h6>
             </div>
-            <div id="companies" class="row justify-content-around align-items-center px-5">
-                <div class="companies-logo 2 col-lg-3 col-lg-2"><img
-                        src="https://acciojob.com/src/CompaniesLogo/HiringPartner/5_MakeMyTrip.webp"></div>
-                <div class="companies-logo col-3 col-lg-2"><img
-                        src="https://acciojob.com/src/CompaniesLogo/HiringPartner/7_Thoughtworks.webp"></div>
-                <div class="companies-logo col-3 col-lg-2"><img
-                        src="https://acciojob.com/src/CompaniesLogo/HiringPartner/3_Lowes.webp"></div>
-                <div class="companies-logo col-3 col-lg-2"><img
-                        src="https://acciojob.com/src/CompaniesLogo/HiringPartner/20_BNY-Mellon.webp"></div>
-                <div class="companies-logo col-3 col-lg-2"><img
-                        src="https://acciojob.com/src/CompaniesLogo/HiringPartner/34_Indiamart.webp"></div>
-                <div class="companies-logo col-3 col-lg-2"><img
-                        src="https://acciojob.com/src/CompaniesLogo/HiringPartner/2_Amazon.webp"></div>
-                <div class="companies-logo col-3 col-lg-2"><img
-                        src="https://acciojob.com/src/CompaniesLogo/HiringPartner/15_Verifone.webp"></div>
-                <div class="companies-logo col-3 col-lg-2"><img
-                        src="https://acciojob.com/src/CompaniesLogo/HiringPartner/12_Innovacer.webp"></div>
-                <div class="companies-logo col-3 col-lg-2"><img
-                        src="https://acciojob.com/src/CompaniesLogo/HiringPartner/28_Optum.webp"></div>
-                <div class="companies-logo col-3 col-lg-2"><img
-                        src="https://acciojob.com/src/CompaniesLogo/HiringPartner/32_Leadsquared.webp"></div>
-                <div class="companies-logo col-3 col-lg-2"><img
-                        src="https://acciojob.com/src/CompaniesLogo/HiringPartner/24_OLA-Electric.webp"></div>
-                <div class="companies-logo col-3 col-lg-2"><img
-                        src="https://acciojob.com/src/CompaniesLogo/HiringPartner/27_IDFC-First-Bank.webp"></div>
-                <div class="companies-logo col-3 col-lg-2"><img
-                        src="https://acciojob.com/src/CompaniesLogo/HiringPartner/31_Man-Matters.webp"></div>
-                <div class="companies-logo col-3 col-lg-2"><img
-                        src="https://acciojob.com/src/CompaniesLogo/HiringPartner/35_Adda247.webp"></div>
-                <div class="companies-logo col-3 col-lg-2"><img
-                        src="https://acciojob.com/src/CompaniesLogo/HiringPartner/13_Freecharge.webp"></div>
-                <div class="companies-logo col-3 col-lg-2"><img
-                        src="https://acciojob.com/src/CompaniesLogo/HiringPartner/29_Vmock.webp"></div>
-                <div class="companies-logo col-3 col-lg-2"><img
-                        src="https://acciojob.com/src/CompaniesLogo/HiringPartner/9_Neustar.webp"></div>
+            <div id="companies">
+                <div class="companies-logo">
+                    <img src="https://acciojob.com/src/CompaniesLogo/HiringPartner/5_MakeMyTrip.webp">
+                </div>
+                <div class="companies-logo">
+                    <img src="https://acciojob.com/src/CompaniesLogo/HiringPartner/28_Optum.webp">
+                </div>
+                <div class="companies-logo">
+                    <img src="https://acciojob.com/src/CompaniesLogo/HiringPartner/2_Amazon.webp">
+                </div>
+                <div class="companies-logo">
+                    <img src="https://acciojob.com/_next/static/media/Lean-Pitch.70478358.webp">
+                </div>
+                <div class="companies-logo">
+                    <img src="https://acciojob.com/src/CompaniesLogo/HiringPartner/3_Lowes.webp">
+                </div>
+                <div class="companies-logo">
+                    <img src="https://acciojob.com/src/CompaniesLogo/HiringPartner/34_Indiamart.webp">
+                </div>
+                <div class="companies-logo">
+                    <img src="https://acciojob.com/src/CompaniesLogo/HiringPartner/7_Thoughtworks.webp">
+                </div>
+                <div class="companies-logo">
+                    <img src="https://acciojob.com/src/CompaniesLogo/HiringPartner/20_BNY-Mellon.webp">
+                </div>
+                <div class="companies-logo">
+                    <img src="https://acciojob.com/src/CompaniesLogo/HiringPartner/15_Verifone.webp">
+                </div>
+                <div class="companies-logo">
+                    <img src="https://acciojob.com/src/CompaniesLogo/HiringPartner/12_Innovacer.webp">
+                </div>
+                <div class="companies-logo">
+                    <img src="https://acciojob.com/src/CompaniesLogo/HiringPartner/32_Leadsquared.webp">
+                </div>
+                <div class="companies-logo">
+                    <img src="https://acciojob.com/src/CompaniesLogo/HiringPartner/24_OLA-Electric.webp">
+                </div>
+                <div class="companies-logo">
+                    <img src="https://acciojob.com/src/CompaniesLogo/HiringPartner/27_IDFC-First-Bank.webp">
+                </div>
+                <div class="companies-logo">
+                    <img src="https://acciojob.com/src/CompaniesLogo/HiringPartner/31_Man-Matters.webp">
+                </div>
+                <div class="companies-logo">
+                    <img src="https://acciojob.com/src/CompaniesLogo/HiringPartner/35_Adda247.webp">
+                </div>
+                <div class="companies-logo">
+                    <img src="https://acciojob.com/src/CompaniesLogo/HiringPartner/13_Freecharge.webp">
+                </div>
+                <div class="companies-logo">
+                    <img src="https://acciojob.com/src/CompaniesLogo/HiringPartner/29_Vmock.webp">
+                </div>
+                <div class="companies-logo">
+                    <img src="https://acciojob.com/src/CompaniesLogo/HiringPartner/9_Neustar.webp">
+                </div>
             </div>
-            <button type="button" class="btn btn-primary text-white py-2 px-3 fs-5">Placement Reports</button>
-            <div id="mentors" class="mt-5">
-                <h1 class="mb-2"><i>Mentors</i></h1>
-                <h6 class="mb-5" style="color: grey;"><i>From Top-Leading Tech Companies</i></h6>
-                <div class="row justify-content-center px-4">
-                    <div class="card col-4 mx-4 mt-2" style="width: 18rem;">
-                        <img class="card-img-top"
-                            src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGVyc29ufGVufDB8fDB8fHww"
-                            width="100%" alt="img1">
-                        <div class="card-body p-2">
-                            <h5 class="card-title">Mohit Singla</h5>
-                            <p style="color: lightslategray;">Software Developement Engineer</p>
-                            <p class="card-text mt-1">An IIT Indore graduate, has mentored thousands of students on
-                                various Data
-                                Structures and Algorithm (DSA) topics, with a specific focus on Spring boot and Capstone
-                                projects.</p>
-                        </div>
+            <button type="button" class="btn btn-primary text-white py-2 px-3 fs-5 mt-5">Placement Reports</button>
+        </div>
+    </section>
+    <section id="mentors" class="text-center p-5 ">
+        <div>
+            <h1 class="mb-2">Mentors</h1>
+            <h6 class="mb-5" style="color: grey;"><i>From Top-Leading Tech Companies</i></h6>
+            <div class="row justify-content-center px-4">
+                <div id="mentor_card" class="card col-4 mx-4 mt-2" style="width: 18rem;">
+                    <img class="card-img-top"
+                        src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGVyc29ufGVufDB8fDB8fHww"
+                        width="100%" alt="img1">
+                    <div class="card-body p-2">
+                        <h5 class="card-title">Mohit Singla</h5>
+                        <p style="color: lightslategray;">Software Developement Engineer</p>
+                        <p class="card-text mt-1">An IIT Indore graduate, has mentored thousands of students on
+                            various Data
+                            Structures and Algorithm (DSA) topics, with a specific focus on Spring boot and Capstone
+                            projects.</p>
                     </div>
-                    <div class="card col-4 mx-4 mt-2" style="width: 18rem;">
-                        <img class="card-img-top"
-                            src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGVyc29ufGVufDB8fDB8fHww"
-                            width="100%" alt="img2">
-                        <div class="card-body p-2">
-                            <h5 class="card-title">Ajay Arora</h5>
-                            <p style="color: lightslategray;">Lead | Automation</p>
-                            <p class="card-text mt-1">Highly-regarded expert for Data Analytics with 15+ years of
-                                industry experience in analytical tools like Excel, Visualization tools, and Python.
-                                Highly sought after in the industry for his expertise and experience.</p>
-                        </div>
+                </div>
+                <div id="mentor_card" class="card col-4 mx-4 mt-2" style="width: 18rem;">
+                    <img class="card-img-top"
+                        src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGVyc29ufGVufDB8fDB8fHww"
+                        width="100%" alt="img2">
+                    <div class="card-body p-2">
+                        <h5 class="card-title">Ajay Arora</h5>
+                        <p style="color: lightslategray;">Lead | Automation</p>
+                        <p class="card-text mt-1">Highly-regarded expert for Data Analytics with 15+ years of
+                            industry experience in analytical tools like Excel, Visualization tools, and Python.
+                            Highly sought after in the industry for his expertise and experience.</p>
                     </div>
-                    <div class="card col-4 mx-4 mt-2" style="width: 18rem;">
-                        <img class="card-img-top"
-                            src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fHww"
-                            width="100%" alt="img3">
-                        <div class="card-body p-2">
-                            <h5 class="card-title">Ayesha Dey</h5>
-                            <p style="color: lightslategray;">Software Engineer</p>
-                            <p class="card-text mt-1">Highly-rated in teaching Intermediate and Advanced Data Structures
-                                and Algorithms (DSA). Strong emphasis on key topics like Graphs, Binary Search Trees
-                                (BST), Heaps, and Dynamic Programming.</p>
-                        </div>
+                </div>
+                <div id="mentor_card" class="card col-4 mx-4 mt-2" style="width: 18rem;">
+                    <img class="card-img-top"
+                        src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fHww"
+                        width="100%" alt="img3">
+                    <div class="card-body p-2">
+                        <h5 class="card-title">Ayesha Dey</h5>
+                        <p style="color: lightslategray;">Software Engineer</p>
+                        <p class="card-text mt-1">Highly-rated in teaching Intermediate and Advanced Data Structures
+                            and Algorithms (DSA). Strong emphasis on key topics like Graphs, Binary Search Trees
+                            (BST), Heaps, and Dynamic Programming.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section id="alumni" class="text-center px-5 pt-5 my-3">
+    <section id="alumni" class="text-center px-5 pt-3 pb-5 my-3">
         <h1 class="mb-2">AccioJob Wall of Love</h1>
         <h6 class="mb-5" style="color: grey;"><i>Our Alumni say it's best</i></h6>
-        <div class="row justify-content-center ps-5">
-                <div class="card col-2 col-lg-3 mt-2 mx-3" style="width: 18rem;">
-                    <img class="card-img-top"
-                        src="https://images.unsplash.com/photo-1496302662116-35cc4f36df92?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D"
-                        width="100%" alt="img1">
-                    <div class="card-body p-2">
-                        <h5 class="card-title">Aryan Kishore</h5>
-                        <p style="color: lightslategray;">QA at Maersk</p>
-                        <p class="card-text mt-1">AccioJob has for sure the best software development course &
-                            curriculum. They helped me a lot and my journey with them was something that I shall
-                            remember for the rest of my life. Lorem ipsum dolor sit. Lorem, ipsum dolor sit amet
-                            consectetur adipisicing elit. Praesentium, officiis?</p>
-                    </div>
+        <div class="row justify-content-center">
+            <div class="card col-2 col-lg-3 mt-2 mx-3" style="width: 18rem;">
+                <img class="card-img-top"
+                    src="https://images.unsplash.com/photo-1496302662116-35cc4f36df92?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D"
+                    width="100%" alt="img1">
+                <div class="card-body p-2">
+                    <h5 class="card-title">Aryan Kishore</h5>
+                    <p style="color: lightslategray;">QA at Maersk</p>
+                    <p class="card-text mt-1">AccioJob has for sure the best software development course &
+                        curriculum. They helped me a lot and my journey with them was something that I shall
+                        remember for the rest of my life. Lorem ipsum dolor sit. Lorem, ipsum dolor sit amet
+                        consectetur adipisicing elit. Praesentium, officiis?</p>
                 </div>
-                <div class="card col-2 col-lg-3 mt-2 mx-3" style="width: 18rem;">
-                    <img class="card-img-top"
-                        src="https://images.unsplash.com/photo-1500048993953-d23a436266cf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D"
-                        width="100%" alt="img2">
-                    <div class="card-body p-2">
-                        <h5 class="card-title">Mayuk Nagg</h5>
-                        <p style="color: lightslategray;">Data Engineer at TransUnion</p>
-                        <p class="card-text mt-1">I am here to tell you all that I am now placed in TransUnion & I could
-                            not have done that without AccioJob's help. I joined AccioJob in my last semester of
-                            college. The placement opportunities in my college were not that great & that was when I
-                            made the decision to upskill myself</p>
-                    </div>
+            </div>
+            <div class="card col-2 col-lg-3 mt-2 mx-3" style="width: 18rem;">
+                <img class="card-img-top"
+                    src="https://images.unsplash.com/photo-1500048993953-d23a436266cf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D"
+                    width="100%" alt="img2">
+                <div class="card-body p-2">
+                    <h5 class="card-title">Mayuk Nagg</h5>
+                    <p style="color: lightslategray;">Data Engineer at TransUnion</p>
+                    <p class="card-text mt-1">I am here to tell you all that I am now placed in TransUnion & I could
+                        not have done that without AccioJob's help. I joined AccioJob in my last semester of
+                        college. The placement opportunities in my college were not that great & that was when I
+                        made the decision to upskill myself</p>
                 </div>
-                <div class="card col-2 col-lg-3 mt-2 mx-3" style="width: 18rem;">
-                    <img class="card-img-top"
-                        src="https://images.unsplash.com/photo-1593104547489-5cfb3839a3b5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D"
-                        width="100%" alt="img3">
-                    <div class="card-body p-2">
-                        <h5 class="card-title">Meenakshi Gattamaneni</h5>
-                        <p style="color: lightslategray;">UI Engineer at Gainsight</p>
-                        <p class="card-text mt-1">The live classes, daily assignments and doubt sessions made sure that
-                            everything was crystal clear to everyone. The multiple mock interviews are a very good
-                            simulation for the actual interviews and the feedback after those interviews is very
-                            helpful. Lorem ipsum</p>
-                    </div>
+            </div>
+            <div class="card col-2 col-lg-3 mt-2 mx-3" style="width: 18rem;">
+                <img class="card-img-top"
+                    src="https://images.unsplash.com/photo-1593104547489-5cfb3839a3b5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D"
+                    width="100%" alt="img3">
+                <div class="card-body p-2">
+                    <h5 class="card-title">Meenakshi Gattamaneni</h5>
+                    <p style="color: lightslategray;">UI Engineer at Gainsight</p>
+                    <p class="card-text mt-1">The live classes, daily assignments and doubt sessions made sure that
+                        everything was crystal clear to everyone. The multiple mock interviews are a very good
+                        simulation for the actual interviews and the feedback after those interviews is very
+                        helpful. Lorem ipsum</p>
                 </div>
-                <div class="card col-2 col-lg-3 mt-2 mx-3" style="width: 18rem;">
-                    <img class="card-img-top"
-                        src="https://images.unsplash.com/photo-1557862921-37829c790f19?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTR8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D"
-                        width="100%" alt="img4">
-                    <div class="card-body p-2">
-                        <h5 class="card-title">Sachin Kore</h5>
-                        <p style="color: lightslategray;">Software Developer at Xperate</p>
-                        <p class="card-text mt-1">After joining AccioJob I was able to learn a lot and upskill myself in
-                            coding and full-stack web development. My batch manager was extremely helpful and helped me
-                            along the way whenever I needed him to. Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Totam, iure!</p>
-                    </div>
+            </div>
+            <div class="card col-2 col-lg-3 mt-2 mx-3" style="width: 18rem;">
+                <img class="card-img-top"
+                    src="https://images.unsplash.com/photo-1557862921-37829c790f19?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTR8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D"
+                    width="100%" alt="img4">
+                <div class="card-body p-2">
+                    <h5 class="card-title">Sachin Kore</h5>
+                    <p style="color: lightslategray;">Software Developer at Xperate</p>
+                    <p class="card-text mt-1">After joining AccioJob I was able to learn a lot and upskill myself in
+                        coding and full-stack web development. My batch manager was extremely helpful and helped me
+                        along the way whenever I needed him to. Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Totam, iure!</p>
                 </div>
+            </div>
             </article>
         </div>
 
     </section>
-    <section id="footer" class="text-center px-5 pt-5 my-3 text-dark">
-
+    <section id="footer" class="text-center px-5 pt-5 my-3">
         <footer class="text-center text-lg-start bg-body-tertiary text-muted">
-            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-
+            <section class="d-flex justify-content-center justify-content-lg-between align-items-center p-4 border-bottom">
                 <div class="me-5 d-none d-lg-block">
                     <span>Get connected with us on social networks:</span>
                 </div>
-                <div class="fs-5">
-                    <a href="#" class="me-4 text-reset">
-                        <i class="fa-brands fa-facebook"></i>
-                    </a>
-                    <a href="#" class="me-4 text-reset">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="#" class="me-4 text-reset">
-                        <i class="fab fa-google"></i>
-                    </a>
-                    <a href="#" class="me-4 text-reset">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="#" class="me-4 text-reset">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="#" class="me-4 text-reset">
-                        <i class="fab fa-github"></i>
-                    </a>
+                <div class="fs-5" id="footer_social_icons">
+                    <i class="fa-brands fa-facebook mx-2"></i>
+                    <i class="fab fa-twitter mx-2"></i>
+                    <i class="fab fa-google mx-2"></i>
+                    <i class="fab fa-instagram mx-2"></i>
+                    <i class="fab fa-linkedin mx-2"></i>
+                    <i class="fab fa-github mx-2"></i>
                 </div>
             </section>
 
-            <section class="">
+            <section>
                 <div class="container text-center text-md-start mt-5">
                     <div class="row mt-3">
                         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                             <h6 class="text-uppercase fw-bold mb-4">
-                                <i class="fas fa-gem me-3"></i>AccioJob
+                                <i class="fas fa-gem me-2"></i>AccioJob
                             </h6>
                             <p>
                                 AccioJob is proud to announce a strategic partnership with the National Skill
@@ -463,16 +447,16 @@
                                 Education
                             </h6>
                             <p>
-                                <a href="#!" class="text-reset">Mern Full Stack</a>
+                                <a href="#" class="text-reset text-decoration-none">Mern Full Stack</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-reset">JAva Full Stack</a>
+                                <a href="#" class="text-reset text-decoration-none">Java Full Stack</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-reset">Data Analytics</a>
+                                <a href="#" class="text-reset text-decoration-none">Data Analytics</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-reset">Hire From Us</a>
+                                <a href="#" class="text-reset text-decoration-none">Hire From Us</a>
                             </p>
                         </div>
 
@@ -482,16 +466,16 @@
                                 Company
                             </h6>
                             <p>
-                                <a href="#!" class="text-reset">Become a Mentor</a>
+                                <a href="#" class="text-reset text-decoration-none">Become a Mentor</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-reset">Blog</a>
+                                <a href="#" class="text-reset text-decoration-none">Blog</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-reset">Careers</a>
+                                <a href="#" class="text-reset text-decoration-none">Careers</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-reset">Terms & Condition</a>
+                                <a href="#" class="text-reset text-decoration-none">Terms & Condition</a>
                             </p>
                         </div>
                         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
@@ -507,18 +491,13 @@
                     </div>
                 </div>
             </section>
-            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05); width:100%;">
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
                 © 2024 Copyright:
-                <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Joydeep Sarkar</a>
+                <a class="text-reset fw-bold text-decoration-none" href="https://mdbootstrap.com/">Joydeep Sarkar</a>
             </div>
         </footer>
 
     </section>
-
-
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
         crossorigin="anonymous"></script>

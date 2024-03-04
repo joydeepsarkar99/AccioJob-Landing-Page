@@ -17,11 +17,11 @@ body{
 #primary_msg {
     font-size: 14px;
     background-color: #2F80ED;
-    margin-top: 72px !important;
 }
 
 #main_div {
     padding-inline: 80px !important;
+    margin-top: 160px !important;
 }
 
 #main_div_msg>h1 {
@@ -36,7 +36,8 @@ body{
 
 #main_div_form {
     border-radius: 18px;
-    box-shadow: 20px 10px 50px 20px rgba(82, 4, 93, 0.12);
+    box-shadow:10px 10px 40px 20px rgba(82, 4, 93, 0.12);
+    
 }
 
 #main_div_info {
@@ -141,32 +142,35 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-#hiring_partners>.btn{
-    margin-top:-2.5rem !important;
-}
-.companies-logo{
-    margin-bottom:6rem !important;
+#companies{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(3,1fr);
+    row-gap: 3rem;
+    column-gap: 15px;
+    padding: 20px 80px !important;;
 }
 .companies-logo>img{
-    width: 90%;
+    width: 80%;
 }
-.companies-logo:hover{
-    box-shadow: 0px 3px 15px 2px gainsboro;
-}
-
 #mentors{
-    margin-top:100px !important;
+    background-color: #FEF7E6;
+    margin-top:80px !important;
 }
-#mentors>div>.card:hover{
-    box-shadow: 0px 3px 15px 2px gainsboro;
+#mentor_card{
+    box-shadow: 0px 1px 4px 1px #cdb7b7;
+}
+#mentor_card:hover{
+    box-shadow: 0px 1px 8px 2px #CACACA;
 }
 #alumni{
-    margin-top:100px !important;
+    margin-top:80px !important;
+}
+#alumni>div>.card{
+    box-shadow: 0px 1px 4px 1px #CACACA;
 }
 #alumni>div>.card:hover{
-    box-shadow: 0px 3px 15px 2px gainsboro;
-}
-#footer>a{
-    text-decoration: none !important;
+    box-shadow: 0px 1px 8px 2px #CACACA;
 }
 
